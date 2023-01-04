@@ -1,0 +1,88 @@
+/* Basic styling  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5ba5db87;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* center calculator */
+.calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* CSS for screen and screenContent , calculation , result */
+.screen {
+  height: 150px;
+  background: #001e34;
+  margin: 20px 20px 20px 20px;
+  margin: auto;
+}
+
+.screenContent {
+  text-align: end;
+  padding: 17px;
+  font-size: 30px;
+  user-select: none;
+}
+
+.calculation {
+  font-size: 12px;
+  color: white;
+  overflow: auto;
+  padding-top: 2rem;
+}
+
+.result {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  color: #fff;
+}
+
+/* CSS For table tr td and button keys , operator keys , math keys  */
+table {
+  background-color: #001e34;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  border: 0.2px solid black;
+  border-collapse: collapse;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  background: #002b4a;
+  color: white;
+  outline: none;
+}
+
+.operator {
+  color: #26b821;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.math {
+  color: #9a80e4;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* CSS for button hover  */
+input[type="button"]:hover {
+  background-color: #ffa800;
+  color: #fff;
+  transition: all 0.5s linear;
+}
