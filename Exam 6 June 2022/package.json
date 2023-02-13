@@ -1,0 +1,18 @@
+{
+  "name": "exam-6-june-2022",
+  "version": "1.0.0",
+  "main": "03. Car Servises.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  },
+  "description": ""
+}
